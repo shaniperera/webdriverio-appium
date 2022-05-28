@@ -1,0 +1,10 @@
+// auto completion
+{
+  "compilerOptions": {
+    "types": ["node", "webdriverio/async", "@wdio/mocha-framework"],
+    // allow import each individual files
+    "module": "commonjs"
+  },
+  // don't complete in node modules files
+  "exclude": ["node_modules"]
+}
