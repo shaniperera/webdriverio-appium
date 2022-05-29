@@ -16,8 +16,8 @@ import { config } from "./wdio.shared.conf";
 config.capabilities = [
   {
     platformName: "ios",
-    "appium:platformVersion": "15.2",
-    "appium:deviceName": "iPhone 12",
+    "appium:platformVersion": "13.5",
+    "appium:deviceName": "iPhone 11",
     "appium:automationName": "XCUITest",
     "appium:app": path.join(process.cwd(), "/app/ios/MVCTodo.app"),
   },

@@ -9,8 +9,8 @@ xdescribe("Delete Todo list", () => {
   it("should delete a todo list", async () => {
     await expect(await ListScreen.listNameField("Things to do")).toBeExisting();
     await driver.execute("mobile: swipe", {
-      element: ListScreen.listNameField("Things to do").elementId,
-      direction: "left",
+    element: ListScreen.listNameField("Things to do"),
+    direction: "left",
     });
     // Click 'Delete'
 
