@@ -14,7 +14,7 @@ jobs:
             node-version: 16.13.0
         - name: Install
           run: npm install
-        - name: Run e2e tests
+        - name: Run e2e android tests
           env: 
             BROWSERSTACK_USER: ${{ secrets.BROWSERSTACK_USER }}
             BROWSERSTACK_KEY: ${{ secrets.BROWSERSTACK_KEY }}

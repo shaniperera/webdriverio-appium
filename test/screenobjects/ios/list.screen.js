@@ -8,6 +8,9 @@ class ListScreen {
   get createBtn() {
     return $("~Create");
   }
+  get deleteBtn() {
+    return $('//*[@label="Delete"]');
+  }
   listNameField(name) {
     return $(`~${name}`);
   }
